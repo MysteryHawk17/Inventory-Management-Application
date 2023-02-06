@@ -31,7 +31,7 @@ app.use("/api/contact",protect,contactRoute)
 
 //routes
 app.get("/",(req,res)=>{
-    res.send("Inventory Management API underconstruction!!")
+    res.send("Inventory Management API Wroking fine!")
 })
 
 //Error Middleware
